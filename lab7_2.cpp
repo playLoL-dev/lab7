@@ -24,9 +24,9 @@ using namespace std;
 int main() {
     string name;
     string sid;
-    string m;
+    string m ;
+    string u ;
     string date;
-    string u;
     
     cout << "Fahsai: Sawadee ka...Can you tell me your name?" << endl;
     cout << "?????: ";
@@ -47,6 +47,6 @@ int main() {
     cout << name << ": " ;
     getline(cin , u) ;
     cout << "Fahsai: 555+ see you "  << date << " Bye Bye \(^ ^)/" << endl;
-    
+
     return 0;
 }
